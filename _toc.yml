@@ -1,0 +1,32 @@
+- file: docs/landing_page
+
+- part: Geral
+  chapters:
+  - file: docs/0_contexto
+
+- part: Sanity Check
+  chapters:
+  - file: docs/sanity_check/geral
+  - file: docs/sanity_check/missing_values
+  - file: docs/sanity_check/outliers
+
+- part: EDA
+  chapters:
+  - file: docs/eda/general_plots
+  - file: docs/eda/numeric_variables
+    sections:
+      - file: docs/eda/numeric_vars/fixed acidity
+      - file: docs/eda/numeric_vars/volatile acidity
+      - file: docs/eda/numeric_vars/citric acid
+      - file: docs/eda/numeric_vars/residual sugar
+      - file: docs/eda/numeric_vars/chlorides
+      - file: docs/eda/numeric_vars/free sulfur dioxide
+      - file: docs/eda/numeric_vars/total sulfur dioxide
+      - file: docs/eda/numeric_vars/density
+      - file: docs/eda/numeric_vars/pH
+      - file: docs/eda/numeric_vars/sulphates
+      - file: docs/eda/numeric_vars/alcohol
+  - file: docs/eda/category_variables
+    sections:
+      - file: docs/eda/category_vars/quality
+  - file: docs/eda/consideracoes_finais
